@@ -1,0 +1,95 @@
+body{
+background-color: #333333;
+display: grid;
+grid-template-columns: repeat(12, minmax(0, 1fr));
+grid-template-rows: repeat(12, minmax(0, 1fr));
+}
+
+
+.logo{
+    width: 400px;
+    grid-column: 5;
+    grid-row: 2;
+}
+
+.login-block {
+    grid-row: 4;
+    grid-column: 3;
+    width: 720px;
+    height: 600px;
+    margin-left: -30px;
+  }
+  
+  .login-block h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .login-block {
+    display: grid;
+}
+
+  .login-block input[type="text"] {
+    width: 720px;
+    height: 120px;
+    padding: 10px;
+    margin-bottom: 50px;
+    font-size: 35px;
+    background-color: #474747;
+    border-radius: 35px;
+    border-style: none;   
+    }
+
+    .login-block input[type="password"]{
+        width: 720px;
+        height: 120px;
+        padding: 10px;
+        font-size: 35px;
+        background-color: #474747;
+        border-radius: 35px;
+        border-style: none;
+    }
+
+    .esqueci-minha-senha{
+        font-size: 35px;
+        color: white;
+        text-decoration-line: underline;
+        grid-row: 6;
+        grid-column: 3;
+    }
+
+    .caixas-login{
+        color: white; 
+    }
+    
+    .submit {
+        grid-row: 7;
+        grid-column: 2; /* Alterado de 2 para 5 */
+        font-family: Karla;
+        color: #333333;
+        width: 460px;
+        height: 100px;
+        background-color: #FFCB54;
+        outline-style: none;
+        font-size: 40px;
+        border-radius: 50px;
+        font-weight: bold;
+        margin-left: 100px;
+      }
+
+.entrar-com{
+    grid-row: 8;
+    grid-column: 3;
+}
+
+.google{
+    width: 640px;
+    height: 120px;
+    margin-bottom: 40px;
+}
+
+.facebook{
+    width: 640px;
+    height: 120px;
+}
